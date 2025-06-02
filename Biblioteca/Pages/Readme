@@ -1,0 +1,27 @@
+1. Tela de Login (login.html)
+>Estrutura montada com HTML5, estilizada com Bootstrap para facilitar responsividade e visual limpo.
+>Inclui campos para e-mail e senha, além de botão de login com ícone.
+>Usei a classe form-control para manter o alinhamento padrão do Bootstrap e garantir boa usabilidade em telas menores.
+>Adicionei uma mensagem de boas-vindas no topo e uma imagem decorativa de livro ao lado, para dar identidade visual.
+>Deixei um botão de login pronto para conectar com o back-end futuramente via JavaScript.
+
+2. Tela de Cadastro de Livros (cadastro.html)
+>Formulário com campos essenciais para registro de livros: título, autor, gênero, ano de publicação e quantidade disponível.
+>Layout centralizado e clean, com divisão clara dos campos usando grid do Bootstrap.
+>Validação mínima nos inputs (ex: tipo number para ano e quantidade).
+>Estrutura preparada para receber integração futura com o banco de dados ou API.
+>Adicionei ícone no botão de cadastro para tornar a interface mais amigável.
+
+3. Homepage (home.html)
+>Página principal com boas-vindas e botões que redirecionam para as outras funcionalidades.
+>Interface bem minimalista e intuitiva, com ícones que reforçam o propósito de cada botão (ex: livro aberto para cadastro).
+>Utilizei classes do Bootstrap como d-grid e gap-3 para organizar visualmente os botões com espaçamento adequado.
+>O foco foi criar uma experiência agradável para o usuário que acabou de logar no sistema.
+
+4. Tela de Empréstimo de Livros (emprestimo.html)
+>Formulário para realizar o empréstimo de livros, com campos como nome do leitor, livro escolhido, data de empréstimo e data de devolução.
+>Organização clara dos campos para facilitar o preenchimento.
+>Estrutura montada para facilitar a adição de funcionalidades futuras, como checagem automática de disponibilidade.
+>Estilização consistente com as demais telas, mantendo o padrão visual do projeto.
+
+>Todas as páginas usam Bootstrap via CDN para evitar necessidade de instalação local.
