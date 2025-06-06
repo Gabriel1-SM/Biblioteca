@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Início - Biblioteca</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+    html, body {
+      height: 100%;
+    }
+    
+    body {
+      background-color: #8995a0;
+       padding-top: 70px
+    }
+
+    body {
+      background-image: url('https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      opacity: 0.9; /* Levemente transparente */
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .home-container {
+      padding: 2rem;
+      
+    }
+
+    .home-container h2 {
+      color: #0d0d0d;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .home-container {
+    flex: 1; /* Empurra o rodapé para baixo */
+    }
+
+    .card {
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .quote {
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #f7f0f0;
+   }
+
+    footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 1rem 0;
+      font-size: 1rem;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    footer nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+  </style>
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top px-4">
+    <a class="navbar-brand" href="#">Biblioteca</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastrar Livro</a></li>
+        <li class="nav-item"><a class="nav-link" href="emprestimo.html">Empréstimo</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="home-container container">
+    <h2 class="mb-4">Bem-vindo à Biblioteca!</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>Livros Disponíveis</h5>
+          <p>Acesse o acervo da biblioteca, veja livros disponíveis e cadastre novos.</p>
+          <a href="cadastro.html" class="btn btn-primary">Ir para Livros</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h5>Empréstimos</h5>
+          <p>Gerencie os empréstimos de livros e acompanhe os retornos.</p>
+          <a href="emprestimo.html" class="btn btn-primary">Ir para Empréstimos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="quote text-center">"Ler é sonhar pela mão de outrem." — Fernando Pessoa</p>
+
+  <footer>
+    <nav aria-label="Rodapé">
+      <a href="politica.html">Política de Privacidade</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <p class="text-center">&copy; 2025 Biblioteca Digital | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
